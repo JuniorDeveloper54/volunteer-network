@@ -7,7 +7,7 @@ const CatagoryInfo = ({ data }) => {
         <div className="col-lg-3  mt-3" >
             <Link to={`/register/${parseInt(data.id)} `} >
                 <div className="header-content-img" >
-                    <img className="img-headerr" src={data.img} />
+                    <img className="img-header" src={data.img} />
                     <div className="title" >
                         <h4 className="text-center" >{data.placeName}</h4>
                     </div>
